@@ -1,0 +1,64 @@
+.post-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .post-table th,
+  .post-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .post-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li.active button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination li button {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination li button:hover {
+    background-color: #f2f2f2;
+  }
+  
